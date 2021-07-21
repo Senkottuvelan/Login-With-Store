@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    color: blanchedalmond;
+}
+.Login-Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.Login-Box input{
+    width: 50%;
+    padding: 15px;
+    color: black;
+    font-weight: 200;
+    margin: 10px;
+}
+.Login-Box input::-webkit-input-placeholder{
+    color: black;
+    font-weight: 300;
+}
+.Login_ME{
+    border-radius: 30px;
+    padding:10px;
+    width: 10%;
+}
